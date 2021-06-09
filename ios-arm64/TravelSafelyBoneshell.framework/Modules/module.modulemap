@@ -1,0 +1,11 @@
+framework module TravelSafelyBoneshell {
+  umbrella header "TravelSafelyBoneshell.h"
+
+  export *
+  module * { export * }
+}
+
+module TravelSafelyBoneshell.Swift {
+    header "TravelSafelyBoneshell-Swift.h"
+    requires objc
+}
