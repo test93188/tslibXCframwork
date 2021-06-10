@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         /// Define the Mocker dependency:
-        .package(url: "https://github.com/test93188/tslibXCframwork.git", from: "1.0.7")
+        .package(url: "https://github.com/test93188/tslibXCframwork.git", from: "1.0.9")
     ],
     targets: [
         .target(name: "testProject", dependencies: []),
