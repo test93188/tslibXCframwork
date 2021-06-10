@@ -17,7 +17,7 @@ let package = Package(
         .package(url: "https://github.com/test93188/tslibXCframwork.git", from: "1.0.1")
     ],
     targets: [
-        .target(name: "testProject", dependencies: []),
+        .target(name: "testProjectProject", dependencies: []),
         /// Add it to your test target in the dependencies array:
         
     ]
