@@ -10,11 +10,11 @@ let package = Package(
         .iOS(.v11)
     ],
     products: [
-        .library(name: "TravelSafelyBoneshell", targets: ["testProject"])
+        .library(name: "TravelSafelyBoneshell", targets: ["TravelSafelyBoneshell"])
     ],
     dependencies: [
         /// Define the Mocker dependency:
-        .package(url: "https://github.com/test93188/tslibXCframwork.git", from: "1.0.3")
+        .package(url: "https://github.com/test93188/tslibXCframwork.git", from: "1.0.4")
     ],
     targets: [
         .target(name: "testProject", dependencies: []),
