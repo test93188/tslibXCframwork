@@ -19,6 +19,6 @@ let package = Package(
     targets: [
         .target(name: "testProject", dependencies: []),
         /// Add it to your test target in the dependencies array:
-        //.testTarget(name: "testProject", dependencies: ["TravelSafelyBoneshell"])
+        
     ]
 )
