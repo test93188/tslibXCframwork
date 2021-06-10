@@ -10,7 +10,7 @@ let package = Package(
         .iOS(.v11)
     ],
     products: [
-        .library(name: "TravelSafelyBoneshell", targets: ["TravelSafelyBoneshell"])
+        .library(name: "TravelSafelyBoneshell", targets: ["testProject"])
     ],
     dependencies: [
         /// Define the Mocker dependency:
